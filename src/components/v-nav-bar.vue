@@ -38,11 +38,11 @@ export default {
           route: 'Kitchen',
           hash: '#page'
         },
-        // {
-        //   name: 'Аксессуары',
-        //   route: 'Accessories',
-        //   hash: '#page'
-        // },
+        {
+          name: 'Аксессуары',
+          route: 'Accessories',
+          hash: '#page'
+        },
         {
           name: 'Доп услуги',
           route: 'Additional',

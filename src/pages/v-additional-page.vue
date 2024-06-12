@@ -1,7 +1,7 @@
 <template>
   <div
     class="
-      v-additional-page
+      v-price-page
       page-container
     "
     id="page"
@@ -84,7 +84,7 @@ export default {
 
 <style lang="scss">
 $color: #f7f745;
-.v-additional-page{
+.v-price-page{
   background-image: url(@/images/wood.jpg);
   width: 100%;
   border: 5px solid #121820;
