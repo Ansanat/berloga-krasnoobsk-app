@@ -12,8 +12,8 @@
         <div v-for="price in item.data" :key="price">
           <div class="price-line"></div> 
           <div class="price-row">
-            <div class="price-name">{{price.name}}</div>
-            <div class="price-price">{{price.price}}</div>
+            <div class="price-name"> {{price.name}} </div>
+            <div class="price-price"> {{price.price}} </div>
           </div>
         </div>
       </div>

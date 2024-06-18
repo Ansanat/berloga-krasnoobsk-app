@@ -70,10 +70,33 @@ export default {
   width: 50%;
 }
 
+.schedule-block {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.time-block {
+  width: 550px;
+  height: 230px;
+  background-color: #f5f8fc;
+  border-radius: 20px;
+  border: 1px solid #121820
+}
+
 @media screen and (min-width: 701px) and  (max-width: 1100px){
   .zagolovok{
     margin-left: 2px;
     font-size: 30px;
+  }
+
+  .schedule-block {
+    display: block;
+  }
+
+  .time-block {
+    width: 90%;
+    margin-top: 40px;
   }
 
   .text {
@@ -82,6 +105,15 @@ export default {
 }
 
 @media screen and (max-width: 700px) {
+  .schedule-block {
+    display: block;
+  }
+
+  .time-block {
+    width: 90%;
+    margin-top: 40px;
+  }
+
   .page-image {
     aspect-ratio: 3 / 3;
     object-fit: cover;

@@ -34,6 +34,20 @@
             <router-link :to="{ name: 'Female', hash: '#page'}" style="text-decoration: none;"><div class="info-button">Подробнее</div></router-link>
         </div>
     </swiper-slide>
+    <swiper-slide>
+        <img class="block-background" src="@/images/dashboard/block4.jpg"/>
+        <div class="block-container anim">
+            <div class="block-text">Коллективное парение</div>
+            <router-link :to="{ name: 'Male', hash: '#collect-par'}" style="text-decoration: none;"><div class="info-button">Подробнее</div></router-link>
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <img class="block-background" src="@/images/dashboard/block5.jpg"/>
+        <div class="block-container anim">
+            <div class="block-text">Еда и напитки</div>
+            <router-link :to="{ name: 'Kitchen', hash: '#page'}" style="text-decoration: none;"><div class="info-button">Подробнее</div></router-link>
+        </div>
+    </swiper-slide>
   </swiper>
 </template>
 
